@@ -5,7 +5,7 @@ RSpec.describe Mutant::Isolation::Fork, mutant: false do
 
   it 'does isolate side effects' do
     initial = 1
-    apply { initial = 2  }
+    apply { initial = 2 }
     expect(initial).to be(1)
   end
 
