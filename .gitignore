@@ -37,3 +37,4 @@ Gemfile.*.lock
 
 ## PROJECT::SPECIFIC
 /vendor
+/test_app/vendor
